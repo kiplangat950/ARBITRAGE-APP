@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RebelGambling</title>
+
+    <script src="index.js" defer></script>
+    <script src="app.js" defer></script>
 </head>
 <body>
 
@@ -30,7 +33,7 @@
 
     <main class="hero-banner-section">
         
-        <!-- Left Banner Content Group -->
+       
         <div class="hero-content-block">
             
             <h1 class="hero-main-title">
@@ -43,13 +46,14 @@
             </p>
 
             <div class="signup-form-inline">
-                <input type="email" placeholder="✉ Enter email" class="email-input-field">
-                <button type="button" class="form-submit-cta-btn">Start free trial</button>
-            </div>
+    <input type="email" id="trial-email-input" placeholder="✉ Enter email" class="email-input-field" required>
+    <button type="button" id="trial-submit-btn" class="form-submit-cta-btn">Start free trial</button>
+</div>
 
-            <!-- THE FEED CONTAINER PLACED CORRECTLY BELOW EMAIL INPUT -->
+
+            
             <div class="feed-container">
-                <!-- Box 1: WNBA -->
+                
                 <div class="simple-feed-box">
                     <p class="feed-title">● ARBITRAGE FEED</p>
                     <div class="feed-content">
@@ -58,7 +62,7 @@
                     </div>
                 </div>
 
-                <!-- Box 2: MLB -->
+                
                 <div class="simple-feed-box">
                     <p class="feed-title">● ARBITRAGE FEED</p>
                     <div class="feed-content">
@@ -67,7 +71,7 @@
                     </div>
                 </div>
 
-                <!-- Box 3: NBA -->
+                
                 <div class="simple-feed-box">
                     <p class="feed-title">● ARBITRAGE FEED</p>
                     <div class="feed-content">
@@ -76,7 +80,6 @@
                     </div>
                 </div>
 
-                <!-- Box 4: Premier League -->
                 <div class="simple-feed-box">
                     <p class="feed-title">● ARBITRAGE FEED</p>
                     <div class="feed-content">
@@ -96,13 +99,30 @@
 
         <div class="hero-media-showcase-block">
             <div class="mockup-placeholder-graphic">
-                <!-- Phone graphic context fits here -->
+    <div class="phone-frame">
+        <h3>Leeds vs Hull city</h3>
+        <p class="market">over/under</p>
+        
+        <div class="odds-row">
+            <span>over: <strong>Novibet</strong></span>
+            <span class="price-blue">2.00*100$=200$</span>
+        </div>
+        
+        <div class="odds-row">
+            <span>under: <strong>Bet365</strong></span>
+            <span class="price-green">2.30*100$=230$</span>
+        </div>
+        <p class="win-notice"><em>You win either way!</em></p>
+    </div>
+</div>
+
+                
             </div>
         </div>
 
     </main>
+ 
 
-    <!-- How It Works Section Container -->
     <section class="how-it-works-section">
         
         <header class="how-it-works-header">
@@ -110,25 +130,49 @@
             <h2 class="section-main-title">Three ways to get an edge.</h2>
         </header>
 
-        <!-- Container holding the tabs navigation row -->
+      
         <div class="edge-options-container">
-            <!-- Column 1: Arbitrage -->
+            
             <article class="edge-column active">
                 <h3 class="edge-title">Arbitrage</h3>
             </article>
 
-            <!-- Column 2: Sharp Money -->
+           
             <article class="edge-column">
                 <h3 class="edge-title">Sharp Money</h3>
             </article>
 
-            <!-- Column 3: Prediction Traders -->
+         
             <article class="edge-column">
                 <h3 class="edge-title">Prediction Traders</h3>
             </article>
         </div>
 
     </section>
+
+    <footer class="site-footer">
+        
+        <div class="footer-links-row">
+            <a href="#">About us</a>
+            <a href="#">FAQ</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Gamble Responsibly</a>
+            <a href="#">Player Complaints Policy</a>
+        </div>
+
+        <div class="footer-disclaimer-text"> 
+
+            <p>Rebel Gambling is operated by BROKER B.V., Abraham Mendez Chumaceiro Boulevard 03, Willemstad, Curaçao, holder of a valid Certificate of Operation under license number OGL/2024/1230/1069.BROKER B.V. is a legal company (number 148161) incorporated under the laws of Curaçao. This Certificate of Operation is in compliance with the National Ordinance on Offshore Games of Chance (Landsverordening op de kansspelen, P.B. 2024, no. 157) and is active. All payments are processed by ZIZERY LTD, Registration no. HE 392733, Nicosia, Cyprus.</p>
+       
+        </div>
+
+
+        <div class="footer-copyright-bar">
+            <p>Copyrights © 2026 REBEL BET. © All rights reserved</p>
+        </div>
+
+    </footer>
 
 </body>
 </html>
