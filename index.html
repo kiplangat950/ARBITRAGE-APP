@@ -1,61 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/css/style.css">
-
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RebelGambling</title>
 </head>
 <body>
 
-    <nav class="nav-container">
-
-        <a href="#" class="logo-main">Rebel<span class="logo-highlight">Gambling</span></a>
-        
-        <div class="nav-links">
-            <a href="#" class="nav-link">Betting Tools</a>
-            <a href="#" class="nav-link">Community</a>
-            <a href="#" class="nav-link">Learning Hub</a>
-            <a href="#" class="nav-link">Pricing</a>
-            <a href="#" class="nav-link">Blog</a>
+    <nav class="navbar">
+        <div class="brand-logo-area">
+            <a href="#">Rebel<span class="logo-highlight">Gambling</span></a>
         </div>
-        
-        <button type="button" class="btn-trial">Start free trial</button>
-        <button type="button" class="btn-trial">Sign up</button>
+
+        <div class="menu-links-area">
+            <a href="#">Betting Tools <span>▼</span></a>
+            <a href="#">Community <span>▼</span></a>
+            <a href="#">Learning Hub</a>
+            <a href="#">Pricing</a>
+            <a href="#">Blog</a>
+        </div>
+
+        <div class="user-actions-area">
+            <button type="button">🌐 <span>▼</span></button>
+            <button type="button">Sign in <span>▼</span></button>
+            <button type="button">Start free trial</button>
+        </div>
     </nav>
-      <h2 class="simple-title">How RebelGambling works</h2>
 
-   
-    <div class="simple-row">
+    <main class="hero-banner-section">
         
-        <!-- Card 1 -->
-        <div class="simple-box">
-            <h3> Find profitable bets instantly</h3>
+        <!-- Left Banner Content Group -->
+        <div class="hero-content-block">
+            
+            <h1 class="hero-main-title">
+                Find an easier way to bet...
+            </h1>
+            
+            <p class="hero-subtext-description">
+                RebelBetting helps you find profitable bets with a mathematical 
+                edge, letting you outsmart the bookmakers at their own game.
+            </p>
 
-            <p>We scan the market 24/7 and show the best bets instantly.</p>
+            <div class="signup-form-inline">
+                <input type="email" placeholder="✉ Enter email" class="email-input-field">
+                <button type="button" class="form-submit-cta-btn">Start free trial</button>
+            </div>
+
+            <!-- THE FEED CONTAINER PLACED CORRECTLY BELOW EMAIL INPUT -->
+            <div class="feed-container">
+                <!-- Box 1: WNBA -->
+                <div class="simple-feed-box">
+                    <p class="feed-title">● ARBITRAGE FEED</p>
+                    <div class="feed-content">
+                        <span class="profit-highlight">8.6%</span>
+                        <span class="feed-text">WNBA: Angel Reese (Over 0.5)</span>
+                    </div>
+                </div>
+
+                <!-- Box 2: MLB -->
+                <div class="simple-feed-box">
+                    <p class="feed-title">● ARBITRAGE FEED</p>
+                    <div class="feed-content">
+                        <span class="profit-highlight">3.2%</span>
+                        <span class="feed-text">MLB: Mets at Braves (Run Line)</span>
+                    </div>
+                </div>
+
+                <!-- Box 3: NBA -->
+                <div class="simple-feed-box">
+                    <p class="feed-title">● ARBITRAGE FEED</p>
+                    <div class="feed-content">
+                        <span class="profit-highlight">2.9%</span>
+                        <span class="feed-text">NBA: Heat at Nuggets (Total Points)</span>
+                    </div>
+                </div>
+
+                <!-- Box 4: Premier League -->
+                <div class="simple-feed-box">
+                    <p class="feed-title">● ARBITRAGE FEED</p>
+                    <div class="feed-content">
+                        <span class="profit-highlight">4.1%</span>
+                        <span class="feed-text">EPL: Chelsea vs Arsenal (Moneyline)</span>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="trustpilot-rating-badge">
+                <span class="trust-label">Great</span>
+                <span class="stars-placeholder">★★★★★</span>
+                <span class="brand-label">Trustpilot</span>
+            </div>
+
         </div>
 
-        →
+        <div class="hero-media-showcase-block">
+            <div class="mockup-placeholder-graphic">
+                <!-- Phone graphic context fits here -->
+            </div>
+        </div>
 
+    </main>
+
+    <!-- How It Works Section Container -->
+    <section class="how-it-works-section">
         
-        <div class="simple-box">
-            <h3>📈 Turn odds into long-term profit</h3>
-            <p>Bet only when the math is on your side.</p>
+        <header class="how-it-works-header">
+            <p class="section-tagline">HOW IT WORKS</p>
+            <h2 class="section-main-title">Three ways to get an edge.</h2>
+        </header>
+
+        <!-- Container holding the tabs navigation row -->
+        <div class="edge-options-container">
+            <!-- Column 1: Arbitrage -->
+            <article class="edge-column active">
+                <h3 class="edge-title">Arbitrage</h3>
+            </article>
+
+            <!-- Column 2: Sharp Money -->
+            <article class="edge-column">
+                <h3 class="edge-title">Sharp Money</h3>
+            </article>
+
+            <!-- Column 3: Prediction Traders -->
+            <article class="edge-column">
+                <h3 class="edge-title">Prediction Traders</h3>
+            </article>
         </div>
-    </div> 
-     <div class="simple-row bottom-card-row">
 
-
-      <div class="simple-box">
-            <h3>🛡️ Stay in full control</h3>
-            <p>Place bets yourself using your own bookmaker accounts. See all 20 + supported bookmakers.</p>
-        </div>
-
-    </div>
+    </section>
 
 </body>
 </html>
 
-</body>
-</html>
