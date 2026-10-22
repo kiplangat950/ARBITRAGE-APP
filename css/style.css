@@ -1,0 +1,78 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+
+.nav-link {
+    color: #333333;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #3ca29b;
+}
+
+.logo-main {
+    color: #0c1a30;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.logo-highlight {
+    color: #e63946;
+}
+
+
+.btn-trial {
+    background-color: #3ca29b;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-trial:hover {
+    background-color: #2e827c;
+}
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn-signup {
+    background-color: #0c1a30; 
+}
+
+.btn-signup:hover {
+    background-color: #050b14;
+}
+.bottom-card-row {
+    margin-top: 20px;
+}
