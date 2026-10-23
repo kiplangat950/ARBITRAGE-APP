@@ -36,3 +36,23 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error("Configuration Error: One or more element IDs were not found in the HTML frame.");
     }
 });
+document.addEventListener('DOMContentLoaded', () => {
+    const toolsTrigger = document.querySelector('.tools-trigger');
+    const toolsWrapper = document.querySelector('.betting-tools-wrapper');
+
+    if (toolsTrigger && toolsWrapper) {
+         
+        toolsTrigger.addEventListener('click', (event) => {
+            event.preventDefault(); 
+            toolsWrapper.classList.toggle('active');
+        });
+
+        
+        document.addEventListener('click', (event) => {
+            if (!toolsWrapper.contains(event.target)) {
+                toolsWrapper.classList.remove('active');
+            }
+        });
+    }
+});
+

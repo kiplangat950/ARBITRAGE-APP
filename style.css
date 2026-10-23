@@ -20,7 +20,7 @@ body {
   
 
 .brand-logo-area a {
-    font-size: 22px;
+    font-size: 37px;
     font-weight: 700;
     color: #000000;
     text-decoration: none;
@@ -313,7 +313,6 @@ body {
     gap: 12px;
 }
 
-/* Large profit text */
 .profit-highlight {
     color: #10b981;                
     font-size: 1.25rem;
@@ -410,6 +409,65 @@ body {
     font-weight: 600;
     font-size: 2.1rem;
 }
+
+
+.betting-tools-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+
+.tools-dropdown-menu {
+    display: none; 
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #FFFFFF;
+    min-width: 280px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 30px rgba(14, 41, 56, 0.15);
+    padding: 8px 0;
+    margin-top: 12px;
+    z-index: 1000;
+}
+
+
+.tools-dropdown-menu .dropdown-item {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+    transition: background 0.2s ease;
+    border-bottom: 1px solid #F1F5EE;
+}
+
+.tools-dropdown-menu .dropdown-item:last-child {
+    border-bottom: none;
+}
+
+
+.tools-dropdown-menu .dropdown-item:hover {
+    background-color: #F3F8EE; 
+}
+
+
+.tools-dropdown-menu .dropdown-item strong {
+    font-size: 15px;
+    color: #0E2938;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.tools-dropdown-menu .dropdown-item small {
+    font-size: 11px;
+    color: #6C7A82;
+}
+
+
+.betting-tools-wrapper.active .tools-dropdown-menu {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 

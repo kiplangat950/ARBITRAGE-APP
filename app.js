@@ -7,9 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
         edgeTabs.forEach((tab) => {
             tab.addEventListener('click', () => {
                 const tabName = tab.innerText.trim();
+                console.log(`Clicked on tab text: "${tabName}"`);
  
 
-                if (tabName === 'Arbitrage') {
+                if (tabName.includes('Arbitrage')) {
                     console.log("Arbitrage tab successfully clicked!");
                     
                     
@@ -22,5 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
         });
+    }else{
+        console.error("Error: No elements found with the class '.edge-column'");
     }
 });
