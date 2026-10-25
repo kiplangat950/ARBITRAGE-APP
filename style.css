@@ -901,7 +901,7 @@ body {
     overflow-y: auto;  
     background-color: #0c1524; 
     border: 1px solid #0284c7; 
-    border-radius: 8px;
+    border-radius: 9px;
     margin-top: 12px;
     box-shadow: 0 15px 30px rgba(0, 178, 255, 0.25);
     z-index: 2000;
@@ -948,8 +948,8 @@ body {
 
 
 .partner-statement-block {
-    margin-top: 24px;
-    max-width: 480px;
+    margin-top: 26px;
+    max-width: 460px;
     text-align: left;
     font-style: normal;
 }
@@ -957,7 +957,7 @@ body {
 .statement-intro-text {
     font-size: 15px;
     color: #475569; 
-    line-height: 1.5;
+    line-height: 1.4;
     margin-bottom: 12px;
 }
 

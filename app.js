@@ -72,7 +72,7 @@ function updateUiElements(apiData) {
         const uOdds = parseFloat(apiData.bet365_odds || 2.10);
 
         
-        const baseStake = 100; // $100 per bet side
+        const baseStake = 100; 
 
         
         const novibetTotalReturn = (oOdds * baseStake).toFixed(2);
